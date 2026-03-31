@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "Summit Ridge Roofing & Restoration",
+  "image": "https://summitridgeroofing.com/images/hero-roofing.jpg",
+  "@id": "https://summitridgeroofing.com",
+  "url": "https://summitridgeroofing.com",
+  "telephone": "+1-479-555-7663",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 N College Ave",
+    "addressLocality": "Fayetteville",
+    "addressRegion": "AR",
+    "postalCode": "72701",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 36.0827,
+    "longitude": -94.1719
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.0827,
+      "longitude": -94.1719
+    },
+    "geoRadius": "40233" 
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "07:00",
+    "closes": "19:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/summitridgeroofingnwa",
+    "https://www.instagram.com/summitridgeroofing"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roofing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Residential Re-Roofing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Commercial Roofing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Emergency Storm Repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Luxury Metal Roofing"
+        }
+      }
+    ]
+  }
+}
